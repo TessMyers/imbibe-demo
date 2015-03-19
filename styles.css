@@ -1,0 +1,86 @@
+body {
+  background-color: #FFCCCC;
+  font-family: Lobster;
+  background-image: url("assets/glasses.png");
+}
+
+.headerbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  background-color: #84596B;
+}
+
+.header {
+  float: left;
+  font-size: 55pt;
+  padding: 30px 0px 30px 50px;
+  color: #191919;
+}
+
+.sidebar {
+  position: absolute;
+  left: 0px;
+  width: 180px;
+  height: 100%;
+  z-index: -1;
+  background-color: #B58AA5;
+}
+
+.logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.faces {
+  padding-top: 200px;
+}
+
+.emoticon {
+  display: table;
+  margin: 40px 20px 20px 50px;
+}
+
+
+.button {
+  font-size: 20pt;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: #B58AA5;
+  padding: 10px 20px 10px 20px;
+  color: #191919;
+}
+
+.auth {
+  display: inline-block;
+  float: right;
+  margin: 50px 20px 20px 20px;
+}
+
+.recommendation {
+  font-size: 26pt;
+  float: left;
+  margin: 150px 0px 0px 250px;
+  color: #191919;
+}
+
+table.ingredients {
+  margin: 200px 50px 0px 0px;
+  padding: 20px;
+  border-spacing: 10px;
+  font-size: 15pt;
+  float: right;
+  width: 13%;
+  background-color: #B58AA5;
+  border-radius: 10px;
+}
+
+th {
+  font-size: 25pt;
+  text-align: center;
+}

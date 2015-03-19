@@ -3,7 +3,7 @@ var db = {
     'rye whiskey':'2 shots',
     'sugar': '1 tsp',
     'bitters': 'dash',
-    'orange twist': ''
+    'orange twist': 'garnish'
   }],
   martini: ['A martini',{
     'gin': '2 oz',
@@ -27,7 +27,7 @@ var db = {
     'salt': '',
     'blender': 'VRRRRR'
   }],
-  hotToddy: ['a nice hot toddy',{
+  hotToddy: ['A nice hot toddy',{
     'scotch': '10 oz',
     'lemon': 'squeeze',
     'honey': 'spoonful',

@@ -70,7 +70,7 @@ body {
 }
 
 table.ingredients {
-  margin: 200px 50px 0px 0px;
+  margin: 250px 50px 0px 0px;
   padding: 20px;
   border-spacing: 10px;
   font-size: 15pt;
@@ -84,3 +84,46 @@ th {
   font-size: 25pt;
   text-align: center;
 }
+
+#left {
+  float: left;
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 60px solid #FFCCCC;
+}
+
+#right {
+  float: right;
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-right: 60px solid #FFCCCC;
+}
+
+#flag {
+  margin: 55px 0px 0px -575px;
+  float: left;
+}
+
+#middle {
+  float: left;
+  background-color: #B58AA5;
+  width: 700px;
+  height: 120px;
+}
+
+
+#backflag {
+  float: left;
+  z-index: -1;
+  background-color: #84596B;
+  height: 200px;
+  width: 450px;
+  margin: 20px 0px 0px 100px;
+}
+
